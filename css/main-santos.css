@@ -56,7 +56,7 @@ body, html {
   margin-bottom: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .titulo-santos {
     text-align: center;
     padding-top: 0.1rem;
@@ -75,7 +75,7 @@ body, html {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .link-santos {
     font-size: 1rem;
     text-align: center;
@@ -98,7 +98,7 @@ body, html {
   transition: 1s;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .img-santos {
     width: 15rem;
   }

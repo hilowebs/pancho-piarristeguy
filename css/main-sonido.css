@@ -42,7 +42,7 @@ body, html {
   text-align: center;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .grid-contenedor-sonido {
     font-size: 1rem;
     grid-template-areas: "ti-sonido" "volver" "falopero" "terrorismo";
@@ -66,7 +66,7 @@ body, html {
   padding-top: 0.1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .titulo-sonido {
     font-size: 2rem;
     line-height: 2rem;
@@ -101,7 +101,7 @@ body, html {
   text-decoration: none;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   #link-sonido {
     text-align: center;
     font-size: 1rem;
@@ -146,7 +146,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .texto-sonido-f {
     font-size: 1.5rem;
     margin-top: -5rem;
@@ -161,7 +161,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .texto-sonido-t {
     font-size: 1.5rem;
     margin-top: -5rem;
@@ -195,7 +195,7 @@ body, html {
   padding: 0rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 640px) {
   .titutlo-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
