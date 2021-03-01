@@ -41,7 +41,7 @@ body, html {
   grid-template-areas: "ti-wel ti-wel ti-wel nav-wel nav-wel" "...... ...... ...... nav-wel nav-wel" "...... ...... ...... nav-wel nav-wel" "sub-wel sub-wel sub-wel sub-wel sub-wel" "pancho pancho pancho pancho pancho";
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .grid-contenedor-welcome {
     text-align: center;
     grid-template-columns: 1fr;
@@ -68,7 +68,7 @@ body, html {
   grid-area: ti-wel;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-welcome {
     display: block;
     font-size: 3rem;
@@ -93,7 +93,7 @@ a {
   font-size: 3rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .navegacion-welcome-link {
     text-align: center;
     font-size: 2rem;
@@ -115,7 +115,7 @@ a {
   text-align: right;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .navegacion-welcome {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -148,7 +148,7 @@ a {
   margin-top: -2rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .contenedor-subtitulo-welcome {
     text-align: center;
   }
@@ -176,7 +176,7 @@ a {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-welcome {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -199,7 +199,7 @@ a {
     -ms-grid-column-span: 1;
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .pancho-contenedor {
     text-align: center;
     margin-top: -9rem;

@@ -66,7 +66,7 @@ body, html {
   padding-top: 0.1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-imagen {
     font-size: 2rem;
     line-height: 2rem;

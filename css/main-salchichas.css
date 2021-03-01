@@ -56,7 +56,7 @@ body, html {
   padding-top: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-salchichas {
     text-align: center;
     padding-top: 0.1rem;
@@ -85,7 +85,7 @@ a {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   #link-salchichas {
     font-size: 1rem;
     text-align: center;
@@ -127,7 +127,7 @@ a {
   -o-animation-direction: linear;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .salchicha {
     font-size: 1.5rem;
     line-height: 1.3rem;

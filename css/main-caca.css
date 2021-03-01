@@ -41,7 +41,7 @@ body, html {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .grid-contenedor-caca {
     text-align: center;
     grid-template-areas: "ti-caca" "nav-caca" "portada-caca" "tracks-caca";
@@ -64,7 +64,7 @@ body, html {
   margin-bottom: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-caca {
     text-align: center;
     padding-top: 0.1rem;
@@ -97,7 +97,7 @@ body, html {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .link-caca {
     font-size: 1rem;
   }
@@ -118,7 +118,7 @@ body, html {
   margin-right: 1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .img-caca-principal {
     width: 20rem;
     margin-bottom: 1rem;
@@ -135,7 +135,7 @@ body, html {
   grid-area: tracks-caca;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .contenedor-tracks-caca {
     text-align: left;
     margin-left: 1.5rem;
@@ -160,7 +160,7 @@ body, html {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .titulo-caca-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -180,7 +180,7 @@ body, html {
     -ms-grid-column: 1;
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
   .contenedor-imgs-caca {
     display: none;
   }
