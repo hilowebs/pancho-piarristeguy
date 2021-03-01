@@ -42,7 +42,7 @@ body, html {
   grid-template-rows: 1fr 1fr 1fr;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .grid-contenedor-imagen {
     font-size: 1rem;
     grid-template-areas: "ti-imagen" "volver" "fracasar" "decision" "santos";
@@ -66,7 +66,7 @@ body, html {
   padding-top: 0.1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .titulo-imagen {
     font-size: 2rem;
     line-height: 2rem;
@@ -82,7 +82,7 @@ body, html {
   padding: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .img-fracasar {
     width: 15rem;
   }
@@ -104,7 +104,7 @@ body, html {
   padding: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .img-decision {
     width: 20rem;
   }
@@ -121,7 +121,7 @@ body, html {
   text-decoration: none;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   #link-imagen {
     text-align: center;
     font-size: 1rem;
@@ -179,7 +179,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .texto-fracasar {
     font-size: 1.5rem;
     margin-top: -2rem;
@@ -193,7 +193,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .texto-santos {
     font-size: 1.5rem;
     margin-top: -2rem;
@@ -207,7 +207,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .texto-decision {
     font-size: 1.5rem;
     margin-top: -2rem;
@@ -258,7 +258,7 @@ body, html {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .titutlo-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -282,7 +282,7 @@ body, html {
     -ms-grid-column: 1;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .decision-grid {
     width: 20rem;
     margin-right: 0rem !important;

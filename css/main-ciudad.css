@@ -41,7 +41,7 @@ body, html {
   grid-template-rows: 1fr 1fr 1fr;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .grid-contenedor-ciudad {
     text-align: center;
     grid-template-areas: "ti-ciudad" "nav-ciudad" "portada-ciudad" "tracks-ciudad";
@@ -64,7 +64,7 @@ body, html {
   margin-bottom: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .titulo-ciudad {
     text-align: center;
     padding-top: 0.1rem;
@@ -97,7 +97,7 @@ body, html {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .link-ciudad {
     font-size: 1rem;
   }
@@ -118,7 +118,7 @@ body, html {
   margin-right: 1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .img-ciudad-principal {
     width: 20rem;
     margin-bottom: 1rem;
@@ -136,7 +136,7 @@ body, html {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .titulo-ciudad-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -156,7 +156,7 @@ body, html {
     -ms-grid-column: 1;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 414px) {
   .contenedor-tracks-ciudad {
     text-align: left;
     margin-left: 1.5rem;
