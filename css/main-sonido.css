@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Scratched Letters";
+  src: url("../fonts/titular/Scratched Letters.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Schablonierschrift_Cracked";
+  src: url("../fonts/secundaria/Schablonierschrift_Cracked.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Essays1743";
+  src: url("../fonts/texto/Essays1743.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-image: url("../imagenes/fondo.gif");
+  background-size: 3%;
+  background-repeat: repeat;
+}
+
+.grid-contenedor-sonido {
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+  display: grid;
+  grid-template-areas: "ti-sonido ti-sonido" "volver volver" "falopero terrorismo";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .grid-contenedor-sonido {
+    font-size: 1rem;
+    grid-template-areas: "ti-sonido" "volver" "falopero" "terrorismo";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.titulo-sonido {
+  font-family: "Scratched Letters";
+  display: block;
+  text-align: right;
+  color: #b97a06;
+  background-color: #000000;
+  font-size: 3.5rem;
+  font-weight: 10;
+  letter-spacing: 0.5rem;
+  line-height: 3.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .titulo-sonido {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+}
+
+.img-falopero {
+  display: inline;
+  width: 15rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.img-terrorismo {
+  display: inline;
+  width: 15rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+#link-sonido {
+  display: block;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #000000;
+  font-family: "Schablonierschrift_Cracked";
+  margin: 1rem;
+  font-weight: 100;
+  text-decoration: none;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  #link-sonido {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+#link-sonido:hover {
+  -webkit-text-decoration: underline overline #b97a06 0.1rem;
+          text-decoration: underline overline #b97a06 0.1rem;
+}
+
+.falopero-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Essays1743";
+  -webkit-text-stroke: 0.03rem #000000;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+.falopero-link:hover {
+  color: #b97a06;
+}
+
+.terrorismo-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Essays1743";
+  -webkit-text-stroke: 0.03rem #000000;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+.terrorismo-link:hover {
+  color: #b97a06;
+}
+
+.texto-sonido-f {
+  font-size: 2rem;
+  margin-top: -6.5rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .texto-sonido-f {
+    font-size: 1.5rem;
+    margin-top: -5rem;
+  }
+}
+
+.texto-sonido-t {
+  margin-top: -6.5rem;
+  padding: 0rem;
+  font-size: 2em;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .texto-sonido-t {
+    font-size: 1.5rem;
+    margin-top: -5rem;
+  }
+}
+
+/* ----------------- GRID ----------------- */
+.titutlo-grid {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: ti-sonido;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.volver-grid {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: volver;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.falopero-grid {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: falopero;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .titutlo-grid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .volver-grid {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+  }
+  .falopero-grid {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+}
+
+.terrorismo-link {
+  grid-area: terrorimo;
+  margin: 0rem;
+  padding: 0rem;
+}
