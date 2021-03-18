@@ -37,17 +37,17 @@ body, html {
   padding: 0rem;
   display: grid;
   text-align: center;
-  grid-template-areas: "ti-imagen ti-imagen ti-imagen" "volver volver volver" "fracasar decision santos";
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "ti-imagen ti-imagen" "volver volver" "fracasar calzoncillos" "decision santos";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .grid-contenedor-imagen {
     font-size: 1rem;
-    grid-template-areas: "ti-imagen" "volver" "fracasar" "decision" "santos";
+    grid-template-areas: "ti-imagen" "volver" "calzoncillos" "fracasar" "decision" "santos";
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -66,7 +66,7 @@ body, html {
   padding-top: 0.1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-imagen {
     font-size: 2rem;
     line-height: 2rem;
@@ -82,7 +82,7 @@ body, html {
   padding: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .img-fracasar {
     width: 15rem;
   }
@@ -101,12 +101,28 @@ body, html {
   width: 25rem;
   border-radius: 0.2rem;
   margin: 1rem;
+  margin-top: 6rem;
   padding: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .img-decision {
     width: 20rem;
+    margin-top: 1rem;
+  }
+}
+
+.img-calzoncillos {
+  display: inline;
+  width: 15rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  padding: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .img-calzoncillos {
+    width: 15rem;
   }
 }
 
@@ -121,7 +137,7 @@ body, html {
   text-decoration: none;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   #link-imagen {
     text-align: center;
     font-size: 1rem;
@@ -172,6 +188,19 @@ body, html {
   color: #b97a06;
 }
 
+.calzoncillos-link {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Essays1743";
+  -webkit-text-stroke: 0.03rem #000000;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+.calzoncillos-link:hover {
+  color: #b97a06;
+}
+
 .texto-fracasar {
   font-size: 2rem;
   margin-top: -2.5rem;
@@ -179,7 +208,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .texto-fracasar {
     font-size: 1.5rem;
     margin-top: -2rem;
@@ -193,7 +222,7 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .texto-santos {
     font-size: 1.5rem;
     margin-top: -2rem;
@@ -207,8 +236,22 @@ body, html {
   padding-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .texto-decision {
+    font-size: 1.5rem;
+    margin-top: -2rem;
+  }
+}
+
+.texto-calzoncillos {
+  font-size: 2rem;
+  margin-top: -2.5rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .texto-calzoncillos {
     font-size: 1.5rem;
     margin-top: -2rem;
   }
@@ -218,7 +261,7 @@ body, html {
 .titutlo-grid {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-column-span: 2;
   grid-area: ti-imagen;
   margin: 0rem;
   padding: 0rem;
@@ -227,7 +270,7 @@ body, html {
 .volver-grid {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-column-span: 2;
   grid-area: volver;
   margin: 0rem;
   padding: 0rem;
@@ -242,23 +285,37 @@ body, html {
 }
 
 .santos-grid {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
   grid-area: santos;
   margin: 0rem;
   padding: 0rem;
 }
 
 .decision-grid {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
   grid-area: decision;
   margin-right: -1.5rem !important;
   padding: 0rem;
   /* TELEFONO */
 }
+@media only screen and (max-width: 500px) {
+  .decision-grid {
+    width: 20rem;
+    margin-right: 0rem !important;
+  }
+}
 
-@media only screen and (max-width: 414px) {
+.calzoncillos-grid {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: calzoncillos;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+@media only screen and (max-width: 500px) {
   .titutlo-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -270,21 +327,19 @@ body, html {
     -ms-grid-column-span: 1;
   }
   .fracasar-grid {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-  }
-  .santos-grid {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-  }
-  .decision-grid {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
   }
-}
-@media only screen and (max-width: 414px) {
+  .santos-grid {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
   .decision-grid {
-    width: 20rem;
-    margin-right: 0rem !important;
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  .calzoncillos-grid {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
   }
 }

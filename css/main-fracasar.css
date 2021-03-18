@@ -35,11 +35,6 @@ body, html {
   width: 100%;
   margin: 0rem;
   padding: 0rem;
-  /*     display: grid;
-      grid-template-columns: ;
-      grid-template-rows: ;
-      grid-template-areas:  
-    ; */
 }
 
 .titulo-fracasar {
@@ -56,7 +51,7 @@ body, html {
   margin-bottom: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-fracasar {
     text-align: center;
     padding-top: 0.1rem;
@@ -75,7 +70,7 @@ body, html {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .link-fracasar {
     font-size: 1rem;
     text-align: center;
@@ -98,7 +93,7 @@ body, html {
   transition: 1s;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .img-fracasar {
     width: 15rem;
   }

@@ -57,7 +57,7 @@ body, html {
   padding-top: 0.1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-terrorismo {
     font-size: 2rem;
     line-height: 2rem;
@@ -77,7 +77,7 @@ a {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .link-terrorismo {
     text-align: center;
     font-size: 1rem;
@@ -100,7 +100,7 @@ a {
   margin-bottom: 0rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .img-terrorismo {
     width: 20rem;
   }
@@ -117,7 +117,7 @@ a {
   font-size: 2rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   #lanzamiento {
     font-size: 1.5rem;
     margin-bottom: 2rem;

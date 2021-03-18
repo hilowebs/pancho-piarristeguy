@@ -41,7 +41,7 @@ body, html {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .grid-contenedor-poni {
     text-align: center;
     grid-template-areas: "ti-poni" "nav-poni" "portada-poni" "tracks-poni";
@@ -64,7 +64,7 @@ body, html {
   margin-bottom: 0.5rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-poni {
     text-align: center;
     padding-top: 0.1rem;
@@ -97,7 +97,7 @@ body, html {
   font-weight: 100;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .link-poni {
     font-size: 1rem;
   }
@@ -118,7 +118,7 @@ body, html {
   margin-right: 1rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .img-poni-principal {
     width: 20rem;
     margin-bottom: 1rem;
@@ -135,7 +135,7 @@ body, html {
   grid-area: tracks-poni;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .contenedor-tracks-poni {
     text-align: left;
     margin-left: 1.5rem;
@@ -160,7 +160,7 @@ body, html {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-poni-grid {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -180,7 +180,7 @@ body, html {
     -ms-grid-column: 1;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .contenedor-imgs-poni {
     display: none;
   }

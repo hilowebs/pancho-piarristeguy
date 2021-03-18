@@ -41,7 +41,7 @@ body, html {
   grid-template-areas: "ti-wel ti-wel ti-wel nav-wel nav-wel" "...... ...... ...... nav-wel nav-wel" "...... ...... ...... nav-wel nav-wel" "sub-wel sub-wel sub-wel sub-wel sub-wel" "pancho pancho pancho pancho pancho";
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .grid-contenedor-welcome {
     text-align: center;
     grid-template-columns: 1fr;
@@ -66,9 +66,16 @@ body, html {
   margin-bottom: 0.5rem;
   margin-left: 0rem;
   grid-area: ti-wel;
+  /* TABLET */
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1280px) {
+  .titulo-welcome {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
   .titulo-welcome {
     display: block;
     font-size: 3rem;
@@ -91,9 +98,15 @@ a {
   padding: 0.5rem;
   margin-top: 0.3rem;
   font-size: 3rem;
+  /* TABLET */
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1280px) {
+  .navegacion-welcome-link {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
   .navegacion-welcome-link {
     text-align: center;
     font-size: 2rem;
@@ -115,7 +128,7 @@ a {
   text-align: right;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .navegacion-welcome {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -148,7 +161,7 @@ a {
   margin-top: -2rem;
   /* TELEFONO */
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .contenedor-subtitulo-welcome {
     text-align: center;
   }
@@ -176,7 +189,7 @@ a {
   /* TELEFONO */
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .titulo-welcome {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -199,7 +212,7 @@ a {
     -ms-grid-column-span: 1;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 500px) {
   .pancho-contenedor {
     text-align: center;
     margin-top: -9rem;
