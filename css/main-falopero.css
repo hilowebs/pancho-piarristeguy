@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Scratched Letters";
+  src: url("../fonts/titular/Scratched Letters.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Schablonierschrift_Cracked";
+  src: url("../fonts/secundaria/Schablonierschrift_Cracked.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Essays1743";
+  src: url("../fonts/texto/Essays1743.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+  background-image: url("../imagenes/fondo.gif");
+  background-size: 3%;
+  background-repeat: repeat;
+}
+
+.grid-contenedor-falopero {
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+  display: grid;
+  grid-template-areas: "ti-falopero" "nav-falopero" "albums-falopero";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.titulo-falopero {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: ti-falopero;
+  font-family: "Scratched Letters";
+  display: block;
+  text-align: right;
+  color: #b97a06;
+  background-color: #000000;
+  font-size: 3.5rem;
+  font-weight: 10;
+  letter-spacing: 0.5rem;
+  line-height: 5rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .titulo-falopero {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 0.3rem;
+  }
+}
+
+.navegacion-falopero {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav-falopero;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-falopero {
+  display: block;
+  font-size: 1.2rem;
+  color: #000000;
+  font-family: "Schablonierschrift_Cracked";
+  margin: 1rem;
+  font-weight: 100;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .link-falopero {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+.albums-contenedor-falopero {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: albums-falopero;
+  text-align: center;
+}
+
+.img-falopero {
+  display: inline;
+  width: 26rem;
+  margin: 1rem;
+  padding: 0.1rem;
+  background-image: url("../imagenes/fondo.gif");
+  background-repeat: repeat;
+  background-size: 100%;
+  margin-bottom: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .img-falopero {
+    width: 20rem;
+  }
+}
+
+.texto-falopero {
+  color: #000000;
+  font-family: "Essays1743";
+  font-weight: 10;
+  font-size: 2rem;
+  margin-top: 0rem;
+  /* TELEFONO */
+}
+@media only screen and (max-width: 500px) {
+  .texto-falopero {
+    font-size: 1.5rem;
+  }
+}
+
+.texto-falopero:hover {
+  color: #b97a06;
+  -webkit-text-stroke: 0.02rem #000000;
+}

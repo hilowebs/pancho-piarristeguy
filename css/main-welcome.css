@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "Northampton_Regular";
+  src: url("../fonts/Northampton_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nixie_One_Regular";
+  src: url("../fonts/Nixie_One_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body, html {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.contenedor-welcome {
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body * {
+  font-family: "Nixie_One_Regular";
+  font-size: 1rem;
+}
+
+.margen {
+  padding: 2rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+.titulo-welcome {
+  font-family: "Northampton_Regular" !important;
+  font-size: 2.7rem !important;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 1;
+  animation-name: titulo-a;
+  animation-duration: 2s;
+}
+
+#ig {
+  cursor: pointer;
+  width: 1rem;
+  display: block;
+  float: right;
+  margin-top: -2.5rem;
+  margin-right: 1rem;
+  filter: invert(1);
+  animation-name: ig-a;
+  animation-duration: 3.3s;
+}
+@media (min-width: 769px) {
+  #ig {
+    display: inline;
+    width: 1.3rem;
+    opacity: 80%;
+  }
+}
+
+.subtitulo-welcome {
+  font-size: 0.9rem !important;
+  margin-top: -2rem;
+  margin-bottom: -2.5rem;
+  margin-left: -6rem;
+  opacity: 90%;
+  text-align: center;
+  animation-name: subtitulo-a;
+  animation-duration: 2.5s;
+}
+
+.quien {
+  margin-left: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1px;
+  -webkit-text-decoration-style: dashed;
+          text-decoration-style: dashed;
+  text-underline-offset: 0.2rem;
+}
+
+#gestora {
+  font-size: 0.7rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* 
+nav menuitem {
+   position:relative;
+   display:block;
+   opacity:0;
+   cursor:pointer;
+}
+
+nav menuitem > menu {
+   position: absolute;
+   pointer-events:none;
+}
+nav > menu { display:flex; }
+
+nav > menu > menuitem { pointer-events: all; opacity:1; }
+menu menuitem a { white-space:nowrap; display:block; }
+
+menuitem:hover > menu {
+   pointer-events:initial;
+}
+menuitem:hover > menu > menuitem,
+menu:hover > menuitem{
+   opacity:1;
+}
+nav > menu > menuitem menuitem menu {
+   transform:translateX(100%);
+   top:0; right:0;
+} */
+/* -------------------------------------------------------------------------------- */
+nav menuitem {
+  cursor: pointer;
+}
+
+nav {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  animation-name: nav-a;
+  animation-duration: 3s;
+}
+
+nav > menu > menuitem > a + menu:after {
+  content: "";
+  position: absolute;
+  border: 1rem solid transparent;
+  border-top: 1rem solid white;
+  left: 1.2re;
+  top: -4rem;
+}
+
+nav menuitem > menu > menuitem > a + menu:after {
+  content: "";
+  position: absolute;
+  border: 1rem solid transparent;
+  border-left: 1rem solid white;
+  top: 0rem;
+  left: -1.8rem;
+  transition: opacity 0.6, transform 0s;
+}
+
+nav > menu > menuitem > menu > menuitem {
+  transition: transform 0.6s, opacity 0.6s;
+  transform: translateY(150%);
+  opacity: 0;
+}
+
+nav > menu > menuitem:hover > menu > menuitem,
+nav > menu > menuitem.hover > menu > menuitem {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+menuitem > menu > menuitem > menu > menuitem {
+  transition: transform 0.6s, opacity 0.6s;
+  transform: translateX(195px) translateY(0%);
+  opacity: 0;
+}
+
+menuitem > menu > menuitem:hover > menu > menuitem,
+menuitem > menu > menuitem.hover > menu > menuitem {
+  transform: translateX(0) translateY(0%);
+  opacity: 1;
+}
+
+/* ANIMACIONES ------------------------------------------------------------ */
+@keyframes titulo-a {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes subtitulo-a {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes nav-a {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes ig-a {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

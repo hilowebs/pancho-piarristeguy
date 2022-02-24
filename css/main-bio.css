@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Northampton_Regular";
+  src: url("../fonts/Northampton_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nixie_One_Regular";
+  src: url("../fonts/Nixie_One_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body, html {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.contenedor-welcome {
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.titulo-bio {
+  font-family: "Northampton_Regular";
+  text-align: center;
+  margin-top: 2rem;
+  animation-name: titulo-a;
+  animation-duration: 2.5s;
+}
+
+.contenedor-volver {
+  margin-top: -2rem;
+  margin-right: 1rem;
+  text-align: right;
+  animation-name: volver-a;
+  animation-duration: 2.5s;
+}
+
+.volver-bio {
+  color: #ffffff;
+  margin-top: 0rem;
+  font-size: 1rem;
+}
+
+.flecha {
+  font-family: "Northampton_Regular";
+  color: #ffffff;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: -3rem;
+}
+
+.img-bio {
+  width: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  box-shadow: 0 3rem 4rem black;
+  filter: grayscale(50%);
+  animation-name: cara-a;
+  animation-duration: 3s;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1px;
+  -webkit-text-decoration-style: dashed;
+          text-decoration-style: dashed;
+  text-underline-offset: 0.2rem;
+}
+
+.descripcion-bio {
+  color: #ffffff;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0rem 2rem 1rem 2rem;
+  font-size: 1rem !important;
+  font-family: "Nixie_One_Regular";
+  font-weight: 200;
+  animation-name: descripcion-a;
+  animation-duration: 3.3s;
+}
+@media (min-width: 769px) {
+  .descripcion-bio {
+    width: 53rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align-last: center;
+  }
+}
+
+.margen-bio {
+  padding: 2rem;
+}
+
+#ig {
+  cursor: pointer;
+  width: 1.5rem;
+  margin-top: -2.5rem;
+  margin-right: 1rem;
+  filter: invert(1);
+}
+
+/* ANIMACIONES ------------------------------------------------------------ */
+@keyframes titulo-a {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes volver-a {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes cara-a {
+  0% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes descripcion-a {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "Northampton_Regular";
+  src: url("../fonts/Northampton_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nixie_One_Regular";
+  src: url("../fonts/Nixie_One_Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body, html {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.contenedor-welcome {
+  height: 100%;
+  width: 100%;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.titulo-poni {
+  font-family: "Northampton_Regular";
+  margin: 1rem;
+  animation-name: titulo-a;
+  animation-duration: 2.5s;
+  animation-name: titulo-a;
+  animation-duration: 2.5s;
+}
+@media (min-width: 769px) {
+  .titulo-poni {
+    font-size: 3rem;
+  }
+}
+
+.contenedor-volver {
+  margin-top: -2rem;
+  margin-right: 1rem;
+  text-align: right;
+  animation-name: volver-a;
+  animation-duration: 2.5s;
+}
+
+.volver-poni {
+  color: #ffffff;
+  margin-top: 0rem;
+  font-size: 1rem;
+}
+
+.flecha {
+  font-family: "Northampton_Regular";
+  color: #ffffff;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: -3rem;
+}
+
+.img-poni-principal {
+  width: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: principal-a;
+  animation-duration: 3.2s;
+}
+@media (min-width: 769px) {
+  .img-poni-principal {
+    display: inline;
+    margin-left: 1rem;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  color: #ffffff;
+}
+
+.contenedor-imgs-poni {
+  text-align: center;
+  animation-name: imgs-a;
+  animation-duration: 3.2s;
+}
+@media (min-width: 769px) {
+  .contenedor-imgs-poni {
+    display: inline;
+    text-align: left;
+    margin: 1rem 1rem 1rem 23rem;
+  }
+}
+
+.descripcion-poni {
+  font-family: "Nixie_One_Regular";
+  margin: 2rem 1rem 2rem 1rem;
+  text-align: right;
+  font-size: 0.8rem !important;
+  animation-name: descripcion-a;
+  animation-duration: 3.3s;
+}
+@media (min-width: 769px) {
+  .descripcion-poni {
+    font-size: 1rem !important;
+    font-weight: 200;
+    display: block;
+    text-align: left;
+    margin: -20rem 1rem 1rem 23rem;
+  }
+}
+
+.contenedor-tracks-poni {
+  text-align: center;
+  font-family: "Nixie_One_Regular";
+  margin-top: 2rem;
+  animation-name: tracks-a;
+  animation-duration: 3.6s;
+}
+@media (min-width: 769px) {
+  .contenedor-tracks-poni {
+    text-align: left;
+    margin: 3rem 1rem 0rem 23rem;
+  }
+}
+
+.titulos-videos {
+  font-family: "Nixie_One_Regular";
+  margin: 0.5rem;
+  font-size: 1rem !important;
+  text-align: center;
+  animation-name: galeria-a;
+  animation-duration: 3.6s;
+}
+@media (min-width: 769px) {
+  .titulos-videos {
+    font-size: 1.2rem !important;
+    font-weight: 200;
+  }
+}
+
+.img-poni {
+  width: 7rem;
+}
+
+button {
+  display: inline;
+  padding: 0rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  border: 0;
+}
+
+.margen-poni {
+  padding: 2rem;
+}
+
+/* ANIMACIONES ------------------------------------------------------------ */
+@keyframes titulo-a {
+  0% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes volver-a {
+  0% {
+    opacity: 0%;
+  }
+  30% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes principal-a {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes imgs-a {
+  0% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes descripcion-a {
+  0% {
+    opacity: 0%;
+  }
+  70% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes tracks-a {
+  0% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
